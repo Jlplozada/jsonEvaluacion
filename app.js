@@ -18,7 +18,7 @@ const cargar = async () => {
             })
         })
     );
-    return respuesta;
+    return ciudad;
 };
 cargar().then((a)=>{
     console.log(a);
